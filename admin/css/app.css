@@ -1,0 +1,100 @@
+body {
+  background-color: #f7f294;
+	background: #466368;
+	background: #ffea84; /* Old browsers */
+  background: -webkit-linear-gradient(bottom left, #E06BEF 0%, #FFA8A8 40%, #ffea84 100%);
+  background: -o-linear-gradient(bottom left, #E06BEF 0%, #FFA8A8 40%, #ffea84 100%);
+  background: linear-gradient(to top right, #E06BEF 0%, #FFA8A8 40%, #ffea84 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    min-height:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+		color: white;
+		padding-top: 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+p, li, a {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	color: #303030;
+}
+
+.hidden {
+	display: none;
+}
+
+form input {
+	display: block;
+	width: 20%;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 50px;
+	border: none;
+	-webkit-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+}
+
+#submit {
+	margin-top: 50px;
+	background-color: transparent;
+	border-radius: 50px;
+	width: 150px;
+	height: 30px;
+	padding-bottom: 30px;
+	-webkit-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	border: 2px solid white;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+.errorTxt {
+	text-align: center;
+}
+
+
+#lastLogin {
+	font-size: 18px;
+	text-align: center;
+}
+
+#buttonCon
+{
+	width: 150px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 50px;
+	-webkit-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 18px -15px rgba(0,0,0,0.75);
+	border: 2px solid white;
+	color: white;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+#button{
+	line-height: 50px;
+	text-align: center;
+	padding-left: 30px;
+	color: white;
+	text-decoration: none;
+}
